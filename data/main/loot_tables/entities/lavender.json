@@ -16,7 +16,7 @@
               },
               {
                 "function": "minecraft:set_nbt",
-                "tag": "{PublicBukkitValues:{\"universim:id\":\"lavender\"},display:{Name:'{\"text\":\"Lavende\",\"italic\":false}'}}"
+                "tag": "{PublicBukkitValues:{\"universim:id\":\"lavender\"},display:{Name:'{\"text\":\"Lavande\",\"italic\":false}'}}"
               }
             ]
           }
