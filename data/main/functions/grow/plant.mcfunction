@@ -2,7 +2,7 @@
 # 1: wheat
 # 5: carrot
 # 9: potato
-# 13 betroot
+# 13 beetroot
 # 17: tomato
 # 21: turnip
 # 25: salad
@@ -25,6 +25,20 @@
 # 93: rosmarin
 # 97: salvia
 # 101: valerian
+# 105: poppy
+# 109: dandelion
+# 113: azure_bluet
+# 117: blue_orchid
+# 121: lily_of_the_valley
+# 125: cornflower
+# 129: oxeye_daisy
+# 133: allium
+# 137: brown_mushroom
+# 141: red_mushroom
+# 145: red_tulip
+# 149: orange_tulip
+# 153: white_tulip
+# 157: pink_tulip
 
 
 scoreboard players set @s plant 0
@@ -54,6 +68,20 @@ execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "rosmarin"}}}]}] run scoreboard players set @s plant 93
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "salvia"}}}]}] run scoreboard players set @s plant 97
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:green_dye",Slot:-106b,tag:{PublicBukkitValues:{"universim:id": "valerian"}}}]}] run scoreboard players set @s plant 101
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:poppy",Slot:-106b}]}] run scoreboard players set @s plant 105
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:dandelion",Slot:-106b}]}] run scoreboard players set @s plant 109
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:azure_bluet",Slot:-106b}]}] run scoreboard players set @s plant 113
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:blue_orchid",Slot:-106b}]}] run scoreboard players set @s plant 117
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:lily_of_the_valley",Slot:-106b}]}] run scoreboard players set @s plant 121
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:cornflower",Slot:-106b}]}] run scoreboard players set @s plant 125
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:oxeye_daisy",Slot:-106b}]}] run scoreboard players set @s plant 129
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:allium",Slot:-106b}]}] run scoreboard players set @s plant 133
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:brown_mushroom",Slot:-106b}]}] run scoreboard players set @s plant 137
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:red_mushroom",Slot:-106b}]}] run scoreboard players set @s plant 141
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:red_tulip",Slot:-106b}]}] run scoreboard players set @s plant 145
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:orange_tulip",Slot:-106b}]}] run scoreboard players set @s plant 149
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:white_tulip",Slot:-106b}]}] run scoreboard players set @s plant 153
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={Inventory:[{id:"minecraft:pink_tulip",Slot:-106b}]}] run scoreboard players set @s plant 157
 
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:wheat_seeds"}}] run scoreboard players set @s plant 1
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:carrot"}}] run scoreboard players set @s plant 5
@@ -81,6 +109,20 @@ execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{i
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "rosmarin"}}}}] run scoreboard players set @s plant 93
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "salvia"}}}}] run scoreboard players set @s plant 97
 execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:green_dye",tag:{PublicBukkitValues:{"universim:id": "valerian"}}}}] run scoreboard players set @s plant 101
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:poppy"}}] run scoreboard players set @s plant 105
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:dandelion"}}] run scoreboard players set @s plant 109
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:azure_bluet"}}] run scoreboard players set @s plant 113
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:blue_orchid"}}] run scoreboard players set @s plant 117
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:lily_of_the_valley"}}] run scoreboard players set @s plant 121
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:cornflower"}}] run scoreboard players set @s plant 125
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:oxeye_daisy"}}] run scoreboard players set @s plant 129
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:allium"}}] run scoreboard players set @s plant 133
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:brown_mushroom"}}] run scoreboard players set @s plant 137
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:red_mushroom"}}] run scoreboard players set @s plant 141
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:red_tulip"}}] run scoreboard players set @s plant 145
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:orange_tulip"}}] run scoreboard players set @s plant 149
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:white_tulip"}}] run scoreboard players set @s plant 153
+execute if entity @a[tag=usingDetector,limit=1,sort=nearest,nbt={SelectedItem:{id:"minecraft:pink_tulip"}}] run scoreboard players set @s plant 157
 
 execute if score @s plant matches 1 run clear @a[tag=usingDetector,limit=1,sort=nearest] wheat_seeds 1
 execute if score @s plant matches 5 run clear @a[tag=usingDetector,limit=1,sort=nearest] carrot 1
@@ -108,6 +150,20 @@ execute if score @s plant matches 89 run clear @a[tag=usingDetector,limit=1,sort
 execute if score @s plant matches 93 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "rosmarin"}} 1
 execute if score @s plant matches 97 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "salvia"}} 1
 execute if score @s plant matches 101 run clear @a[tag=usingDetector,limit=1,sort=nearest] green_dye{PublicBukkitValues:{"universim:id": "valerian"}} 1
+execute if score @s plant matches 105 run clear @a[tag=usingDetector,limit=1,sort=nearest] poppy 1
+execute if score @s plant matches 109 run clear @a[tag=usingDetector,limit=1,sort=nearest] dandelion 1
+execute if score @s plant matches 113 run clear @a[tag=usingDetector,limit=1,sort=nearest] azure_bluet 1
+execute if score @s plant matches 117 run clear @a[tag=usingDetector,limit=1,sort=nearest] blue_orchid 1
+execute if score @s plant matches 121 run clear @a[tag=usingDetector,limit=1,sort=nearest] lily_of_the_valley 1
+execute if score @s plant matches 125 run clear @a[tag=usingDetector,limit=1,sort=nearest] cornflower 1
+execute if score @s plant matches 129 run clear @a[tag=usingDetector,limit=1,sort=nearest] oxeye_daisy 1
+execute if score @s plant matches 133 run clear @a[tag=usingDetector,limit=1,sort=nearest] allium 1
+execute if score @s plant matches 137 run clear @a[tag=usingDetector,limit=1,sort=nearest] brown_mushroom 1
+execute if score @s plant matches 141 run clear @a[tag=usingDetector,limit=1,sort=nearest] red_mushroom 1
+execute if score @s plant matches 145 run clear @a[tag=usingDetector,limit=1,sort=nearest] red_tulip 1
+execute if score @s plant matches 149 run clear @a[tag=usingDetector,limit=1,sort=nearest] orange_tulip 1
+execute if score @s plant matches 153 run clear @a[tag=usingDetector,limit=1,sort=nearest] white_tulip 1
+execute if score @s plant matches 157 run clear @a[tag=usingDetector,limit=1,sort=nearest] pink_tulip 1
 
 execute unless score @s plant matches 0 run playsound minecraft:block.crop.break master @a ~ ~ ~
 execute unless score @s plant matches 0 run tag @s add hasPlant

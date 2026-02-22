@@ -24,6 +24,20 @@ execute if score @s plant matches 92 run loot spawn ~ ~0.4 ~ loot main:entities/
 execute if score @s plant matches 96 run loot spawn ~ ~0.4 ~ loot main:entities/rosmarin
 execute if score @s plant matches 100 run loot spawn ~ ~0.4 ~ loot main:entities/salvia
 execute if score @s plant matches 104 run loot spawn ~ ~0.4 ~ loot main:entities/valerian
+execute if score @s plant matches 108 run loot spawn ~ ~0.4 ~ loot main:entities/poppy
+execute if score @s plant matches 112 run loot spawn ~ ~0.4 ~ loot main:entities/dandelion
+execute if score @s plant matches 116 run loot spawn ~ ~0.4 ~ loot main:entities/azure_bluet
+execute if score @s plant matches 120 run loot spawn ~ ~0.4 ~ loot main:entities/blue_orchid
+execute if score @s plant matches 124 run loot spawn ~ ~0.4 ~ loot main:entities/lily_of_the_valley
+execute if score @s plant matches 128 run loot spawn ~ ~0.4 ~ loot main:entities/cornflower
+execute if score @s plant matches 132 run loot spawn ~ ~0.4 ~ loot main:entities/oxeye_daisy
+execute if score @s plant matches 136 run loot spawn ~ ~0.4 ~ loot main:entities/allium
+execute if score @s plant matches 140 run loot spawn ~ ~0.4 ~ loot main:entities/brown_mushroom
+execute if score @s plant matches 144 run loot spawn ~ ~0.4 ~ loot main:entities/red_mushroom
+execute if score @s plant matches 148 run loot spawn ~ ~0.4 ~ loot main:entities/red_tulip
+execute if score @s plant matches 152 run loot spawn ~ ~0.4 ~ loot main:entities/orange_tulip
+execute if score @s plant matches 156 run loot spawn ~ ~0.4 ~ loot main:entities/white_tulip
+execute if score @s plant matches 160 run loot spawn ~ ~0.4 ~ loot main:entities/pink_tulip
 scoreboard players set @s plant 0
 scoreboard players set @s stage 0
 tag @s remove hasPlant
